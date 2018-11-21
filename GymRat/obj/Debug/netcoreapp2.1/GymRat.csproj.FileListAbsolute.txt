@@ -1,0 +1,14 @@
+C:\Users\KANG\source\repos\GymRat\GymRat\bin\Debug\netcoreapp2.1\GymRat.deps.json
+C:\Users\KANG\source\repos\GymRat\GymRat\bin\Debug\netcoreapp2.1\GymRat.runtimeconfig.json
+C:\Users\KANG\source\repos\GymRat\GymRat\bin\Debug\netcoreapp2.1\GymRat.runtimeconfig.dev.json
+C:\Users\KANG\source\repos\GymRat\GymRat\bin\Debug\netcoreapp2.1\GymRat.dll
+C:\Users\KANG\source\repos\GymRat\GymRat\obj\Debug\netcoreapp2.1\GymRat.csprojAssemblyReference.cache
+C:\Users\KANG\source\repos\GymRat\GymRat\obj\Debug\netcoreapp2.1\GymRat.csproj.CoreCompileInputs.cache
+C:\Users\KANG\source\repos\GymRat\GymRat\obj\Debug\netcoreapp2.1\GymRat.RazorAssemblyInfo.cache
+C:\Users\KANG\source\repos\GymRat\GymRat\obj\Debug\netcoreapp2.1\GymRat.RazorAssemblyInfo.cs
+C:\Users\KANG\source\repos\GymRat\GymRat\obj\Debug\netcoreapp2.1\GymRat.AssemblyInfoInputs.cache
+C:\Users\KANG\source\repos\GymRat\GymRat\obj\Debug\netcoreapp2.1\GymRat.AssemblyInfo.cs
+C:\Users\KANG\source\repos\GymRat\GymRat\obj\Debug\netcoreapp2.1\GymRat.RazorTargetAssemblyInfo.cache
+C:\Users\KANG\source\repos\GymRat\GymRat\bin\Debug\netcoreapp2.1\GymRat.pdb
+C:\Users\KANG\source\repos\GymRat\GymRat\obj\Debug\netcoreapp2.1\GymRat.dll
+C:\Users\KANG\source\repos\GymRat\GymRat\obj\Debug\netcoreapp2.1\GymRat.pdb
