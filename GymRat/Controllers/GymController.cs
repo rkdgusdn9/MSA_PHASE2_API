@@ -128,7 +128,7 @@ namespace GymRat.Controllers
         // GET: api/Gym/BigPart
         [Route("BigPart")]
         [HttpGet]
-        public async Task<List<string>> GetBigpart()
+        public async Task<List<string>> GetBigPart()
         {
             var gym = (from m in _context.GymItem
                          select m.BigPart).Distinct();
