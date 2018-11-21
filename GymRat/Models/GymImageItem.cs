@@ -10,6 +10,8 @@ namespace GymRat.Models
     {
         public string Name { get; set; }
         public string BigPart { get; set; }
+        public string SmallPart { get; set; }
+        public string Direction { get; set; }
         public IFormFile Image { get; set; }
     }
 }

@@ -26,6 +26,7 @@ namespace GymRat.Models
                         Name = "Is Mayo an Instrument?",
                         BigPart = "shit",
                         SmallPart = "damn",
+                        Direction = "beep",
                         Url = "https://i.kym-cdn.com/photos/images/original/001/371/723/be6.jpg",
                         Uploaded = "07-10-18 4:20T18:25:43.511Z",
                         Width = "768",

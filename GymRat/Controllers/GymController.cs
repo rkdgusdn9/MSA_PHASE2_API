@@ -160,6 +160,8 @@ namespace GymRat.Controllers
                     GymItem gymItem = new GymItem();
                     gymItem.Name = gym.Name;
                     gymItem.BigPart = gym.BigPart;
+                    gymItem.SmallPart = gym.SmallPart;
+                    gymItem.Direction = gym.Direction;
 
                     System.Drawing.Image image = System.Drawing.Image.FromStream(stream);
                     gymItem.Height = image.Height.ToString();
