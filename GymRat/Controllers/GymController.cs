@@ -128,15 +128,31 @@ namespace GymRat.Controllers
         // GET: api/Gym/BigPart
         [Route("BigPart")]
         [HttpGet]
-        public async Task<List<string>> GetBigPart()
+        public async Task<List<GymItem>> GetGymItem([FromQuery] string gym)
         {
-            var gym = (from m in _context.GymItem
-                         select m.BigPart).Distinct();
+            var gyms = from m in _context.GymItem
+                        select m; //get all the memes
 
-            var returned = await gym.ToListAsync();
+
+            if (!String.IsNullOrEmpty(gym)) //make sure user gave a tag to search
+            {
+                gyms = gyms.Where(s => s.BigPart.ToLower().Equals(gym.ToLower())); // find the entries with the search tag and reassign
+            }
+
+            var returned = await gyms.ToListAsync(); //return the memes
 
             return returned;
         }
+
+       //  public async Task<List<string>> GetBigPart()
+       //  {
+       //      var gym = (from m in _context.GymItem
+       //                   select m.BigPart).Distinct();
+
+       //      var returned = await gym.ToListAsync();
+
+       //      return returned;
+       //  }
 
         [HttpPost, Route("upload")]
         public async Task<IActionResult> UploadFile([FromForm] GymImageItem gym)
