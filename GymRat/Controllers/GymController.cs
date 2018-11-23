@@ -126,7 +126,7 @@ namespace GymRat.Controllers
         }
 
         // GET: api/Gym/BigPart
-        [Route("BigPart")]
+        [Route("bigPart")]
         [HttpGet]
         public async Task<List<GymItem>> GetGymItem([FromQuery] string gym)
         {
